@@ -1,0 +1,37 @@
+{
+  "name": "priya-portfolio",
+  "version": "1.0.0",
+  "description": "Digital Product Designer portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "gh-pages -d .",
+    "lint": "echo 'No linting configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/priya-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "design",
+    "ui",
+    "ux",
+    "product-designer",
+    "bangalore",
+    "india"
+  ],
+  "author": "Priya",
+  "license": "MIT",
+  "homepage": "https://yourusername.github.io/priya-portfolio",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
